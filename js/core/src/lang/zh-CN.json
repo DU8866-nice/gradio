@@ -17,6 +17,7 @@
 		"resume": "继续",
 		"record": "录制",
 		"no_microphone": "找不到麦克风",
+		"recording_error": "无法从麦克风开始录音。",
 		"pause": "暂停",
 		"play": "播放",
 		"waiting": "等待中",
@@ -43,6 +44,7 @@
 		"built_with_gradio": "使用 Gradio 构建",
 		"clear": "清除",
 		"download": "下载",
+		"download_all": "全部下载",
 		"edit": "编辑",
 		"empty": "空",
 		"error": "错误",
@@ -51,6 +53,10 @@
 		"logo": "标志",
 		"or": "或",
 		"remove": "移除",
+		"runs": "运行记录",
+		"runs_description": "查看保存在此浏览器中的运行记录",
+		"back_to_app": "应用",
+		"back_to_app_description": "返回应用",
 		"share": "分享",
 		"submit": "提交",
 		"undo": "撤销",
@@ -58,7 +64,13 @@
 		"no_devices": "未找到设备",
 		"language": "语言",
 		"display_theme": "显示主题",
-		"pwa": "渐进式 Web 应用"
+		"pwa": "渐进式 Web 应用",
+		"progress": "进度",
+		"record": "录制",
+		"stop_recording": "停止录制",
+		"screen_studio": "屏幕录制工作室",
+		"share_gradio_tab": "[共享中] Gradio 标签页",
+		"run": "运行"
 	},
 	"dataframe": {
 		"incorrect_format": "格式不正确，仅支持 CSV 和 TSV 文件",
@@ -74,7 +86,15 @@
 		"sort_ascending": "升序排序",
 		"sort_descending": "降序排序",
 		"drop_to_upload": "将 CSV 或 TSV 文件拖放到此处以将数据导入数据框",
-		"clear_sort": "清除排序"
+		"import_empty_file": "拖入的文件为空。",
+		"import_no_column_names": "拖入的文件没有列名。",
+		"import_ragged_row": "文件第 {line} 行有 {fields} 个字段，而表头有 {columns} 个。",
+		"import_static_columns": "无法导入到含有只读列的表格。",
+		"import_fixed_columns": "此表格必须正好有 {expected} 列，而文件有 {actual} 列。",
+		"import_fixed_rows": "此表格必须正好有 {expected} 行，而文件有 {actual} 行。",
+		"clear_sort": "清除排序",
+		"filter": "筛选",
+		"clear_filter": "清除筛选"
 	},
 	"dropdown": {
 		"dropdown": "下拉菜单"
@@ -107,6 +127,32 @@
 		"use_brush": "使用画笔",
 		"drop_to_upload": "将图像文件拖放到此处以上传"
 	},
+	"image_editor": {
+		"add_layer": "添加图层",
+		"brush": "画笔",
+		"brush_size": "画笔大小",
+		"clear_canvas": "清空画布",
+		"color": "颜色",
+		"confirm_crop": "确认裁剪",
+		"crop": "裁剪",
+		"erase": "擦除",
+		"eraser_size": "橡皮擦大小",
+		"fit_to_screen": "适应屏幕",
+		"layer": "图层",
+		"layers": "图层",
+		"pan": "平移",
+		"paste": "粘贴",
+		"redo": "重做",
+		"resize": "调整大小",
+		"save_changes": "保存更改",
+		"select_draw_tool": "选择绘图工具开始绘制",
+		"show_layers": "显示图层",
+		"upload": "上传",
+		"upload_image": "上传图像",
+		"webcam": "摄像头",
+		"zoom_in": "放大",
+		"zoom_out": "缩小"
+	},
 	"label": {
 		"label": "标签"
 	},
@@ -129,6 +175,9 @@
 	"slider": {
 		"slider": "滑块"
 	},
+	"status": {
+		"queue_position": "排队中：第 {position} 位，共 {size} 位"
+	},
 	"upload_text": {
 		"click_to_upload": "点击上传",
 		"drop_audio": "将音频拖放到此处",
@@ -150,6 +199,16 @@
 		"cancel": "取消",
 		"like": "赞",
 		"dislike": "踩",
-		"clear": "清空对话"
+		"clear": "清空对话",
+		"complete": "已完成",
+		"copy_message": "复制消息",
+		"copied_message": "已复制消息"
+	},
+	"chat_interface": {
+		"new_chat": "新对话",
+		"message_placeholder": "输入消息...",
+		"additional_inputs": "其他输入",
+		"chatbot": "聊天机器人",
+		"conversation": "对话"
 	}
 }
